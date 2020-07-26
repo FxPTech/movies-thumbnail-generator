@@ -161,7 +161,7 @@ function putTemplate() {
                     c = c.toDataURL("image/jpeg");
                     $("#Finale").fadeIn("slow");
                     $("#imageR").fadeIn("slow");
-                    $('#imageR').css("border", "solid #008b8b");
+                    $('#imageR').css("border", "solid #4b0082");
                     document.getElementById('imageR').src = c;
                     if($('#imageR').is(":visible"))
                     {
@@ -198,7 +198,7 @@ function putTemplate() {
                     c = c.toDataURL("image/jpeg");
                     $("#Finale").fadeIn("slow");
                     $("#imageR").fadeIn("slow");
-                    $('#imageR').css("border", "solid #008b8b");
+                    $('#imageR').css("border", "solid #4b0082");
                     document.getElementById('imageR').src = c;
                     if ($('#imageR').is(":visible")) {
                         //ready
