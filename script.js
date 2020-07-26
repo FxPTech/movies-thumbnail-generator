@@ -146,7 +146,7 @@ function putTemplate() {
                 break;
             case "empty": template_loc += "emptyTemplate.png";
                 break;
-            case "tech": template_loc += "techTemplate.png";
+            case "tech": template_loc += "moviesTemplate.png";
                break;
         }
         imageObj1.onload = function () {
