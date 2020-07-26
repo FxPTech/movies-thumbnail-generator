@@ -223,11 +223,7 @@ text-decoration: none;
    
 
 #select-tech {
-	border-color: #008B8B;
-}
-
-#select-gaming {
-	border-color: #bc8e1b;
+	border-color: #4b0082;
 }
 
 #submit-button {
@@ -274,7 +270,7 @@ text-decoration: none;
 	float: left;
 	margin-left: 25px;
 	font-weight: 600;
-	color: #008B8B;
+	color: #4b0082;
 }
 
 #final-article-copy:hover {
@@ -578,7 +574,7 @@ font-weight:bold;
     height:144px;
     width:256px;
     border:solid;
-    border-color:#008b8b;
+    border-color:#4b0082;
 }
 #submit-button {
     display: block;
@@ -586,22 +582,22 @@ font-weight:bold;
     margin-right: auto;
 	color: #ffffff;
 	font-weight: bold;
-	background: #008b8b;
+	background: #4b0082;
 	width: 125px;
 	height: 40px;
 	border: 0;
-	border-bottom: 4px solid #006770;
+	border-bottom: 4px solid #2e044d;
 	border-radius: 10px;
 	margin-top: 30px;
 }
 
 #submit-button:hover {
-	background: #006770;
+	background: #2e044d;
 	cursor: pointer;
 }
 
 #submit-button:active {
-	background: #006770;
+	background: #2e044d;
 }
 
 .radioLabel {
