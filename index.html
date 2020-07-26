@@ -26,13 +26,6 @@
     $(function () {
         $.get('Footer.txt', ShowFooter, "text");
     });
-    function ShowFooter(data) {
-        var built = "נבנה  על ידי";
-        var tal = "טל";
-        var UpdatedThanks = data.replace("%built%", built)
-        .replace("%tal%", tal);
-        document.getElementById("footercontent").innerHTML = UpdatedThanks;
-    }
     </script>
 </head>
 <body class="B" onload="detectmob()">
@@ -58,7 +51,7 @@
                         </span>
                         <span class="title">
                           בחרו תמונה ממאגר המקורות המותרים לשימוש
-                       <a href="https://www.fxp.co.il/showthread.php?t=20225371" style="color:#008080;" class="dept" id=""><b>כאן</b></a>
+                       <a href="https://www.fxp.co.il/showthread.php?t=20225371" style="color:#4b0082;" class="dept" id=""><b>כאן</b></a>
                         </span>
                     </td>
                 </tr>
@@ -119,7 +112,7 @@
                       <td style="direction:rtl;" colspan="2">
                            <div id="selectdeptDiv2">
                               <label id="empty_label" class="radioLabel"><input type="radio" name="dept" value="empty" /> רגיל </label><br />
-                               <label id="tech_label" class="radioLabel"> <input type="radio" name="dept" value="tech" /> טכנולוגיה מיוחד – רק באישור עורך  </label><br />
+                               <label id="tech_label" class="radioLabel"> <input type="radio" name="dept" value="tech" /> קולנוע וסדרות מיוחד – רק באישור עורך  </label><br />
                                </div>
                       </td>
                 </tr>
@@ -206,7 +199,7 @@
                 <tbody>
                     <tr>
                     <td>
-                        <a class="footerlinks">&nbsp; עוצב מחדש ועודכן על־ידי  </a>
+                        <a class="footerlinks">&nbsp; נבנה על־ידי </a>
                         <a href="https://www.fxp.co.il/member.php?u=1035826" class="footerlinks">אופק</a>
                        <!--  <img src="https://i.imgur.com/4quInc0.png" style=" width:-5%; right:23% ;position:relative" > -->
                       <!--  <a class="footersmiley"> :)</a> -->
